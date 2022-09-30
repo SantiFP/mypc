@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="body" class="flex flex-col items-center justify-center bg-blue-500 h-screen">
+        <p id="pc" class="pb-4">Hola soy la computadora del mesaia, quien eres?</p>
+        <div id="resdiv">
+            <p class="pb-2 text-white">Ingresa respuesta aquí abajo</p>
+            <form class="flex flex-col items-center" id="form">
+
+                <input id="res" class="bg-blue-200 outline-none pl-2 py-2" type="text">
+                <div id="senddiv">
+                    <button id="send" class="bg-blue-300 mt-2 px-3 py-1">Enviar respuesta</button>
+                </div>
+            
+            </form>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+    <script src="./music.js"></script>
+    <script src="./api.js"></script>
+    <script src="./news.js"></script>
+</body>
+</html>
+
+        
