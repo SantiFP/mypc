@@ -24,6 +24,12 @@ const keepShowing = () =>{
         btn.removeEventListener('click',keepShowing)
         btn.addEventListener('click',selectedNews)
     }else if(answer == 'no'){
+        btn.removeEventListener('click',keepShowing);
+        chat.value = '';
+        pc.innerHTML = `<div class='flex flex-col items-center'>
+        <p>Espero que estas noticias te hayan servido de algo</p>
+        <p>Trabajo en progreso, el programa continuará ...</p>
+        </div>`
 
     }
 }
