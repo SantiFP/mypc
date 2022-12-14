@@ -19,7 +19,7 @@ const getRandom = (arr, n) => {
   }
 };
 
-console.log(getRandom([1, 2, 3, 4, 5, 6], 3));
+console.log(getRandom([1, 2, 3, 4, 5, 6], 3));        
 
 const getNews = async () => {
   let url = `https://newsapi.org/v2/top-headlines?language=es&category=${newsSelection}&apiKey=${apiKeyNews}`;
