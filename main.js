@@ -61,6 +61,8 @@ const country = async () => {
     btn.addEventListener("click", selectedNews);
     news();
   } else {
+    chatDiv.classList.remove('hidden');
+    chat.focus();
     chat.value = "";
     pc.innerHTML = `<div class='flex flex-col items-center'>
         <p>Vaya no he encontrado esa ciudad en mi base de datos &#128563;&#128563;</p>
